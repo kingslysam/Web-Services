@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Services", "Web Services\Web Services.csproj", "{9DF89740-E99B-471D-A53C-448C4FAA7BAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "part1qn1", "Web Services\part1qn1.csproj", "{9DF89740-E99B-471D-A53C-448C4FAA7BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PART 1", "PART 1", "{A05D1994-8365-4CF7-B5C3-7C24E12C2D28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DF89740-E99B-471D-A53C-448C4FAA7BAA} = {A05D1994-8365-4CF7-B5C3-7C24E12C2D28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2AA593CA-6118-4DFD-94CC-7B45D405C5B9}
