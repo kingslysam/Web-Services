@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/images/google.png</ImageUrl>
+		<NavigateUrl>https://www.google.com/</NavigateUrl>
+		<AlternateText>Google Search engine</AlternateText>
+		<Width>600</Width>
+		<Height>200</Height>
+		<Impressions>3</Impressions>
+		<Keyword>small</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/toyota.png</ImageUrl>
+		<NavigateUrl>https://www.toyota.com/</NavigateUrl>
+		<AlternateText>Toyota</AlternateText>
+		<Width>600</Width>
+		<Height>200</Height>
+		<Impressions>2</Impressions>
+		<Keyword>small</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/nissan.png</ImageUrl>
+		<Width>600</Width>
+		<Height>200</Height>
+		<NavigateUrl>https://www.nissan-europe.com/</NavigateUrl>
+		<AlternateText>C-sharpcorner Home Page</AlternateText>
+		<Impressions>3</Impressions>
+		<Keyword>small</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/lexus.png</ImageUrl>
+		<Width>600</Width>
+		<Height>200</Height>
+		<NavigateUrl>https://www.lexus.com/</NavigateUrl>
+		<AlternateText>C-sharpcorner Home Page</AlternateText>
+		<Impressions>3</Impressions>
+		<Keyword>small</Keyword>
+	</Ad>
+</Advertisements>
