@@ -70,6 +70,7 @@
     <Content Include="Global.asax" />
     <Content Include="indexOutofRange.aspx" />
     <Content Include="Web.config" />
+    <Content Include="customPage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -83,6 +84,13 @@
       <DependentUpon>indexOutofRange.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="customPage.aspx.cs">
+      <DependentUpon>customPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customPage.aspx.designer.cs">
+      <DependentUpon>customPage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

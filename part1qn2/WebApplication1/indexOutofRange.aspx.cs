@@ -35,6 +35,7 @@ namespace WebApplication1
                 catch (IndexOutOfRangeException ex)
                 {
                     checklabeled.Text = "Error: Index out of range: \nTry Again: index from 0 to "+array.Length;
+                    Response.Redirect("customPage.aspx");
                 }
             }
         }

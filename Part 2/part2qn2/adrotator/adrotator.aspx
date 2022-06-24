@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server" align="center">
         <strong><u><p>Project Assignment</p></u></strong>
-        <h4>Part 2 Q2</h4>
+        <h4>Part 2 Qn2</h4>
         <div>
 
             <asp:Label ID="Label2" runat="server" Text="Ads on varies companies"></asp:Label>

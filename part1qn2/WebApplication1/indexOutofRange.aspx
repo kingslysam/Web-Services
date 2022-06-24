@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="indexOutofRange.aspx.cs" Inherits="WebApplication1.indexOutofRange" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="indexOutofRange.aspx.cs" Inherits="WebApplication1.indexOutofRange" Trace="true" TraceMode="SortByTime"%>
 
 <!DOCTYPE html>
 

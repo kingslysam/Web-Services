@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aspApplication.aspx.cs" Inherits="Web_Services.aspApplication" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aspApplication.aspx.cs" Inherits="Web_Services.aspApplication"  Trace="true"  TraceMode="SortByTime"%>
 
 <!DOCTYPE html>
 
