@@ -31,6 +31,7 @@ namespace removeCookies
             {
                 nameCookie.Expires = DateTime.Now.AddDays(-1);
                 Response.Cookies.Add(nameCookie);
+                cookieLabel.Text = "Cookie Removed";
             }
             else
             {

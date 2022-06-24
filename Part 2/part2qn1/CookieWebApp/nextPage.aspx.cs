@@ -35,5 +35,10 @@ namespace CookieWebApp
                 Response.Redirect("userin.aspx");
             }
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("userin.aspx");
+        }
     }
 }
