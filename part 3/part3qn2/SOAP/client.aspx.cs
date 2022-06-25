@@ -18,12 +18,12 @@ namespace SOAP
         }
 
         protected void Button1_Click(object sender, EventArgs e)
-        {
-            
-            int[] lotteryNumbers = new int[6]; 
+        { 
             int up = Convert.ToInt32(upperBoundBox.Text);
             int low = Convert.ToInt32(lowerBoundBox.Text);
-            for (int i = 0; i < 6; i++)
+            int amt = Convert.ToInt32(amountNumber.Text);
+            int[] lotteryNumbers = new int[amt];
+            for (int i = 0; i < amt; i++)
             {
                 int randomNumber = obj.RandomNumberGenerator(low, up);
                 bool same = true;

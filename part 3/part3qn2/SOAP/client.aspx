@@ -21,6 +21,11 @@
         </div>
         <br />
         <div>
+            <asp:Label ID="Label3" runat="server" Text="Amount of No:"></asp:Label>
+            <asp:TextBox ID="amountNumber" runat="server"></asp:TextBox>
+        </div>
+        <br />
+        <div>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Produce random" Width="130px" />
         </div>
         <br />

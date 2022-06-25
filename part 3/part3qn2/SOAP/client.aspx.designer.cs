@@ -60,6 +60,24 @@ namespace SOAP
         protected global::System.Web.UI.WebControls.TextBox lowerBoundBox;
 
         /// <summary>
+        /// Label3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
+
+        /// <summary>
+        /// amountNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox amountNumber;
+
+        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
