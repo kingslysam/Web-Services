@@ -9,16 +9,13 @@ using System.Web.Services;
 /// </summary>
 [WebService(Namespace = "http://tempuri.org/")]
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
-// To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
-// [System.Web.Script.Services.ScriptService]
+
 public class WebService : System.Web.Services.WebService
 {
 
     public WebService()
     {
 
-        //Uncomment the following line if using designed components 
-        //InitializeComponent(); 
     }
 
 
@@ -40,7 +37,6 @@ public class WebService : System.Web.Services.WebService
     [WebMethod]
     public double GetPrice(string symbol)
     {
-        //it takes the symbol as parameter and returns price
         for (int i = 0; i < stocks.GetLength(0); i++)
         {
             if (String.Compare(symbol, stocks[i, 0], true) == 0)
@@ -53,8 +49,7 @@ public class WebService : System.Web.Services.WebService
     [WebMethod]
     public string GetName(string symbol)
     {
-        // It takes the symbol as parameter and 
-        // returns name of the stock
+
         for (int i = 0; i < stocks.GetLength(0); i++)
         {
             if (String.Compare(symbol, stocks[i, 0], true) == 0)
