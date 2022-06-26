@@ -15,13 +15,14 @@ namespace removeCookies
             if (nameCookie != null)
             {
                 cookieLabel.Text = nameCookie["UserName"];
+                cookiePresence.Text = "Cookie present";
             }
             else
             {
-                cookieLabel.Text = "No cookies";
+                cookiePresence.Text = "No cookies";
+                cookieLabel.Text = "null";
             }
-            /*string name = nameCookie != null ? nameCookie.Value.Split('=')[1] : "undefined";
-            ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('" + name + "');", true);*/
+            
         }
 
         protected void removeButton_Click(object sender, EventArgs e)
@@ -31,12 +32,15 @@ namespace removeCookies
             {
                 nameCookie.Expires = DateTime.Now.AddDays(-1);
                 Response.Cookies.Add(nameCookie);
-                cookieLabel.Text = "Cookie Removed";
+                cookiePresence.Text = "Cookie Removed" ;
+                cookieLabel.Text = "null";
             }
             else
             {
-                cookieLabel.Text = "No Cookie to delete ";
+                cookiePresence.Text = "No Cookie to delete ";
+                cookieLabel.Text = "No cookies";
             }
+            //Response.Redirect("removeCookie.aspx");
         }
     }
 }

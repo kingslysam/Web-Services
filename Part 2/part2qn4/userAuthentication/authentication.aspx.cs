@@ -27,7 +27,9 @@ namespace userAuthentication
             Response.Redirect("loginPage.aspx");
         displayInfo:
             {
+                //confirm.Text = "Succesful login";
                 confirm.Text = "User Confirm \n Welcome, " + (string)Session["user"];
+                Session["invalid"] = "false";
             }
         }
     } 

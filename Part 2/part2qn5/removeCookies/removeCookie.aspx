@@ -11,6 +11,11 @@
         <strong><u><p>Project Assignment</p></u></strong>
         <h4>Part 2 Qn5</h4>
         <div>
+            <asp:Label ID="cookiePresence" runat="server"></asp:Label>
+        </div>
+        <br />
+        <div>
+            <asp:Label Text="Current Cookie:" runat="server"></asp:Label>
             <asp:Label ID="cookieLabel" runat="server"></asp:Label>
         </div>
         <br />

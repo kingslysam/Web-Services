@@ -13,7 +13,7 @@
         <div>
             <asp:Label ID="Label1" runat="server" Text="Time"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="timeBox" runat="server"></asp:TextBox>
+            <asp:Label ID="timeLabel" runat="server"></asp:Label>
         </div>
         <br />
         <div>

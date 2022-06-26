@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server" align="center">
+    <form id="form1" runat="server">
         <strong><u><p>Project Assignment</p></u></strong>
         <h4>Part 2 Qn4</h4>
         <div>
@@ -15,7 +15,7 @@
         </div>
         <br />
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Username"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label>
             <asp:TextBox ID="userBox" runat="server"></asp:TextBox>
         </div>
         <br />

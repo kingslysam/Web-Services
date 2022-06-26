@@ -9,20 +9,43 @@ namespace sessionDictionary
 {
     public partial class sessionEntry : System.Web.UI.Page
     {
+        string time = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            timeLabel.Text = "Will Entered Automatically";
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Session["user"] = userBox.Text;
-            Session["remote"] = remoteBox.Text;
-            Session["time"] = timeBox.Text;
-            userBox.Visible = false;
+            if (String.IsNullOrEmpty(userBox.Text))
+            {
+                Session["userAgent"] = null;
+            }
+            else
+            {
+                Session["userAgent"] = userBox.Text;
+            }
+            if (String.IsNullOrEmpty(remoteBox.Text))
+            {
+                Session["remoteIP"] = null;
+            }
+            else
+            {
+                Session["remoteIP"] = remoteBox.Text;
+            }
+            if (String.IsNullOrEmpty(time))
+            {
+                Session["time"] = null;
+            }
+            else
+            {
+                Session["time"] = time;
+            }
+            /*userBox.Visible = false;
             remoteBox.Visible = false;
-            timeBox.Visible = false;
-            Button1.Visible = false;
+            time.Visible = false;
+            Button1.Visible = false;*/
             Response.Redirect("sessionDisplay.aspx");
         }
     }

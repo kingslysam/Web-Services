@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server" align="center">
+    <form id="form1" runat="server">
         <strong><u><p>Project Assignment</p></u></strong>
         <h4>Part 2 Qn4</h4>
         <div>
@@ -15,6 +15,7 @@
             <asp:Label ID="confirm" runat="server"></asp:Label>
 
         </div>
+        <br />
     </form>
 </body>
 </html>
