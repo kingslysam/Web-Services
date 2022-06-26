@@ -10,7 +10,7 @@ namespace SOAP
 {
     public partial class client : System.Web.UI.Page
     {
-        int randomNumber;
+
         WebService1SoapClient obj;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -52,5 +52,17 @@ namespace SOAP
             }
             randomNumberLabel.Text = String.Join(",",lotteryNumbers);
         }
+        /*protected void Button1_Click(object sender, EventArgs e)
+        {
+            int up = Convert.ToInt32(upperBoundBox.Text);
+            int low = Convert.ToInt32(lowerBoundBox.Text);
+            int[] lotteryNumbers = new int[6];
+            for (int i = 0; i < 6; i++)
+            {
+               int randomNumber = obj.RandomNumberGenerator(low, up);
+               lotteryNumbers[i] = randomNumber;
+            }
+            randomNumberLabel.Text = String.Join(",", lotteryNumbers);
+        }*/
     }
 }
